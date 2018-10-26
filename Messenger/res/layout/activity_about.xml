@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tsoft_background_600_1199"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding" >
+
+    <TextView
+        android:id="@+id/tvAboutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="130dp"
+        android:text="@string/home_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/home_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvAboutTitle"
+        android:layout_marginTop="2dp"
+        android:text="@string/version"
+        android:textColor="@color/white"
+        android:textSize="@dimen/home_text_version_size" />
+
+    <TextView
+        android:id="@+id/tvAboutContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvVersion"
+        android:layout_marginTop="5dp"
+        android:text="@string/about_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/genre"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvAboutRateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvAboutContent"
+        android:layout_marginTop="15dp"
+        android:text="@string/rate_app_dialog_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/home_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvAboutRateContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvAboutRateTitle"
+        android:layout_marginTop="5dp"
+        android:text="@string/rate_app_dialog_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/genre"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAboutRateContent"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/rating"
+        android:drawablePadding="2dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/rate_app_dialog_rate_positive"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

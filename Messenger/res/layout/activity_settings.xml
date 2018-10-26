@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_padding"
+    android:scrollbars="vertical"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/chkDeleteMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_allow_delete_message"
+        android:textColor="@color/title_gray"
+        android:textSize="@dimen/title"
+        android:layout_marginBottom="15dp" />
+
+    <CheckBox
+        android:id="@+id/chkEnableFilterByPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_enable_filter_by_phone"
+        android:textColor="@color/title_gray"
+        android:textSize="@dimen/title"
+        android:layout_marginBottom="15dp" />
+
+    <CheckBox
+        android:id="@+id/chkEnableFilterByContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_enable_filter_by_content"
+        android:textColor="@color/title_gray"
+        android:textSize="@dimen/title"
+        android:layout_marginBottom="15dp" />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#fc0505</color>
+    <color name="green">#0516fc</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="home_page">#D5DED9</color>
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_divider">#00000000</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="scan_text_color">#113e64</color>
+    <color name="prompt_title_color">#FFFFBB33</color>
+
+    <!-- Messages -->
+    <color name="actionbar">#3cb879</color>
+    <color name="body_background">#e8e8e8</color>
+    <color name="body_background_green">#82e783</color>
+    <color name="server_status_bar">#2b2b2b</color>
+    <color name="title_gray">#757373</color>
+    <color name="bg_msg_you">#5eb964</color>
+    <color name="bg_msg_from">#e5e7eb</color>
+    <color name="msg_border_color">#a1a1a1</color>
+    <color name="bg_btn_join">#1e6258</color>
+    <color name="bg_msg_input">#e8e8e8</color>
+    <color name="text_msg_input">#626262</color>
+    <color name="lblFromName">#777777</color>
+
+    <!-- Toolbar -->
+    <color name="window_background">#ffffff</color>
+    <color name="my_primary">#03a9f4</color>
+    <color name="my_primary_dark">#CC0000</color>
+    <color name="my_primary_light">#B3E5FC</color>
+    <color name="my_accent">#FF5722</color>
+    <color name="my_primary_text">#ffffff</color>
+    <color name="my_secondary_text">#ffffff</color>
+    <color name="my_icons">#FFFFFF</color>
+    <color name="my_divider">#B6B6B6</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    
+    <!-- Navigator -->
+    <color name="item_selected_color">#cccfd5</color>
+    <color name="item_text_color">#434a54</color>
+    <color name="navigator_background">#ffffff</color>
+
+</resources>

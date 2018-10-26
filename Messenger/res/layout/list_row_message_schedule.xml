@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:cacheColorHint="#ff000000"
+    android:orientation="horizontal"
+    android:paddingBottom="3dp"
+    android:paddingTop="8dp" >
+
+    <TextView
+        android:id="@+id/tvScheduleDestinations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/title"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvScheduleMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvScheduleDestinations"
+        android:layout_below="@id/tvScheduleDestinations"
+        android:layout_marginTop="5dp"
+        android:textSize="@dimen/genre" />
+
+    <TextView
+        android:id="@+id/tvScheduleDateCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvScheduleMessage"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvScheduleMessage"
+        android:layout_marginTop="3dp" />
+
+    <TextView
+        android:id="@+id/tvScheduleDateSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvScheduleMessage"
+        android:layout_marginTop="3dp" />
+
+</RelativeLayout>

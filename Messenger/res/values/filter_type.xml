@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="filter_type">
+        <item>Phone</item>
+        <item>Email</item>
+    </string-array>
+
+</resources>

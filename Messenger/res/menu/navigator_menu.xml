@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single" >
+        <item
+            android:id="@+id/item_inbox"
+            android:icon="@drawable/ic_email"
+            android:title="@string/navigator_item_inbox"/>
+        <item
+            android:id="@+id/item_spam_message"
+            android:icon="@drawable/ic_spam"
+            android:title="@string/navigator_item_spam_message"/>
+        <item
+            android:id="@+id/item_filter"
+            android:icon="@drawable/ic_filter_icon"
+            android:title="@string/navigator_item_filter"/>
+        <item
+            android:id="@+id/item_scan"
+            android:icon="@drawable/ic_scan"
+            android:title="@string/button_home_scan"/>
+        <item
+            android:id="@+id/item_schedule"
+            android:icon="@drawable/ic_timer"
+            android:title="@string/button_home_schedule"/>
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single" >
+        <item
+            android:id="@+id/item_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/button_home_about"/>
+
+        <!-- Divider will appear above this item -->
+        <item
+            android:id="@+id/item_setting"
+            android:icon="@drawable/ic_settings_normal"
+            android:title="@string/navigator_item_setting"/>
+    </group>
+
+</menu>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Message Blocker</string>
+    <string name="button_home_setting">Cài đặt</string>
+    <string name="action_settingsaction_settings">Cài đặt</string>
+    <string name="button_home_message">Tin nhắn</string>
+    <string name="button_home_backList">Danh sách chặn</string>
+    <string name="button_home_scan">Quét</string>
+    <string name="button_home_schedule">Tin nhắn hẹn giờ</string>
+    <string name="button_home_about">Chúng tôi</string>
+    <string name="title_activity_messages">Tin nhắn rác</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="home_title">Message Block</string>
+    <string name="version">Phiên bản</string>
+    <string name="home_category">DANH MỤC</string>
+    <string name="setting_allow_delete_message">Tự động xóa tin nhắn</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="setting_show_all_message">Hiển thị toàn bộ</string>
+    <string name="setting_filters_settings_content">Cài đặt từ khóa chặn</string>
+    <string name="setting_enable_filter_by_phone">Chặn theo số điện thoại</string>
+    <string name="setting_enable_filter_by_content">Chặn theo nội dung tin nhắn</string>
+    <string name="setting_on">Mở</string>
+    <string name="setting_off">Tắt</string>
+    <string name="setting_filters_auto_phone">Điện thoại</string>
+    <string name="setting_filters_auto_email">Thư điện tử</string>
+    <string name="setting_filters_auto_number">Số</string>
+    <string name="setting_filters_content_auto_by">Tự động chặn với</string>
+    <string name="setting_filters_settings_phone">Cài đặt chặn theo số điện thoại</string>
+    <string name="title_activity_content_filter">ContentFilterActivity</string>
+    <string name="setting_filters_content_title">Danh sách từ khóa</string>
+    <string name="setting_filters_phone_title">Các số bị chặn</string>
+    <string name="title_activity_phone_filter">PhoneFilterActivity</string>
+    <string name="setting_prompt_title">Thêm số điện thoại</string>
+    <string name="setting_prompt_type">Nhập số cần chặn</string>
+    <string name="setting_prompt_content_type">Nhập từ khóa cần chặn</string>
+    <string name="setting_prompt_content_input_title">Tin nhắn sẽ bị chặn nếu chứa:</string>
+    <string name="setting_filter_settings">Thêm từ khóa</string>
+    <string name="setting_filter_type">Chặn theo</string>
+    <string name="setting_filter_auto">Tự động</string>
+    <string name="setting_filter_manual">Thủ công</string>
+    <string name="setting_filter_select_your_pattern">Chọn từ khóa:</string>
+    <string name="button_ok">Đồng ý</string>
+    <string name="button_save">Lưu</string>
+    <string name="button_cancel">Hủy bỏ</string>
+    <string name="message_toast_require_input">Số điện thoại là bắt buộc</string>
+    <string name="message_toast_phone_existed">Số điện thoại đã tồn tại</string>
+    <string name="message_toast_content_existed">Từ khóa đã tồn tại</string>
+    <string name="message_toast_content_auto_required">Bạn phải chọn từ khóa</string>
+    <string name="message_toast_content_manual_required">Bạn phải nhập từ khóa</string>
+    <string name="message_toast_filter_blocked">Đã chặn</string>
+    <string name="message_toast_filter_deleted">Đã xóa</string>
+    <string name="message_toast_comming_soon">This feature will be in the next version</string>
+    <string name="message_toast_scan_not_enable_filter">Bạn cần bật tính năng chặn tin nhắn</string>
+    <string name="scan_completed_title">Đã quét {0} / {1} tin nhắn</string>
+    <string name="scan_inprogress_title">Đang quét</string>
+    <string name="scan_completed_dialog_title">Đã quét xong</string>
+    <string name="scan_completed_dialog_content">Không còn tin nhắn rác nào được phát hiện!</string>
+
+    <!-- Toolbar -->
+    <string name="toolbar_search_title">Tìm kiếm</string>
+    <string name="navigator_item_inbox">Hộp thư đến</string>
+    <string name="navigator_item_spam_message">Tin nhắn rác</string>
+    <string name="navigator_item_filter">Từ khóa chặn</string>
+    <string name="navigator_item_setting">Cài đặt</string>
+    <string name="navigator_item_my_photo_title">Chụp ảnh</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    
+    <!-- Notifications -->
+    <string name="notification_schedule_title">Tự động gửi</string>
+    <string name="notification_new_messates_title">Tin nhắn mới</string>
+    <string name="notification_new_messates_content">Bạn có {0} tin nhắn mới</string>
+
+    <!-- About -->
+    <string name="about_content">Giải pháp ứng dụng tin nhắn thông minh, chăm sóc cuộc sống của bạn! \nChặn tin nhắn với từ khóa có thể chứa trong nội dung tin nhắn hoặc với số điện thoại. Tin nhắn tự động thông minh, chỉ cần đặt lịch gửi ứng dụng sẽ tự động gửi theo thời gian bạn đặt.</string>
+    <string name="about_rate_unable_start">Không thể tìm thấy ứng dụng trên google play</string>
+
+    <!-- Message schedules -->
+    <string name="message_schedule_list_title">Tin nhắn hẹn giờ</string>
+    <string name="message_schedule_destination_title">Danh sách gửi đến:</string>
+    <string name="message_schedule_send_on_date_title">Thời gian gửi:</string>
+    <string name="message_schedule_message_title">Nội dung tin nhắn:</string>
+    <string name="message_schedule_button_set_date">Thêm ngày</string>
+    <string name="message_schedule_button_set_time">Thời gian</string>
+    <string name="message_schedule_datetime_value">Hãy thêm ngày và thời gian gửi!</string>
+    <string name="message_schedule_created_date_row_title">Ngày tạo</string>
+    <string name="message_schedule_send_on_date_row_title">Sẽ gửi vào lúc</string>
+    <string name="message_schedule_send_on_date_less_than_current">Thời gian gửi tin nhắn phải lớn hơn thời gian hiện tại!</string>
+
+    <!-- Add contact recipients -->
+    <string name="add_recipients_contact_search_hint">Nhập tên hoặc số</string>
+
+    <!-- Rate app -->
+    <string name="rate_app_dialog_title">Đánh giá ứng dụng này</string>
+    <string name="rate_app_dialog_content">Nếu bạn thích ứng dụng này, xin hãy giành chút thời gian đánh giá ứng dụng. Điều đó sẽ không tốn thời gian của bạn hơn 1 phút. Cảm ơn sự ủng hộ của bạn!</string>
+    <string name="rate_app_dialog_rate_positive">Đánh giá</string>
+    <string name="rate_app_dialog_rate_remind_later">Nhắc sau</string>
+    <string name="rate_app_dialog_rate_never_later">Không, cảm ơn</string>
+
+    <!-- Compose messages -->
+    <string name="compose_message_button_send">Gửi</string>
+    <string name="compose_message_input_hint">Nhập văn bản của bạn</string>
+    <string name="compose_message_send_required">Nội dung tin nhắn không được trống</string>
+    <string name="compose_message_send_recipents_required">Danh sách gửi tin nhắn không được trống</string>
+    <string name="compose_message_sending">Đang gửi</string>
+    <string name="compose_message_sent">Đã gửi</string>
+    <string name="compose_message_delivered">Đã Nhận</string>
+    <string name="compose_message_failed">Lỗi</string>
+    <string name="compose_message_new_title">Viết tin nhắn</string>
+    <string name="compose_message_new_send_to">Gửi đến:</string>
+    <string name="compose_message_status_sending">Đang gửi</string>
+    <string name="compose_message_status_completed">Đã gửi</string>
+    <string name="compose_message_status_falied">Gửi lỗi</string>
+
+    <!-- Comfirm dialog defalt app -->
+    <string name="comfirm_default_app_dialog_title">Thay đổi ứng dụng tin nhắn</string>
+    <string name="comfirm_default_app_dialog_content">Dùng Message Blocker thay cho ứng dụng Tin Nhắn của bạn?</string>
+
+    <!-- App is not compatible -->
+    <string name="app_not_compatible_dialog_title">Message Blocker tương thích</string>
+    <string name="app_not_compatible_dialog_content">Xin lỗi, Ứng dụng của chúng tôi không tương thích với thiết bị của bạn!</string>
+    <string name="app_not_compatible_comfirm_default">Bạn hãy thay đổi ứng dụng tin nhắn mặc định là Message Blocker, để ứng dụng hoạt động hiệu quả.\n Đến settings -&gt; Wireless &amp; Networkd (More) -&gt; Default Sms app</string>
+
+    <!-- Conversation -->
+    <string name="conversation_snnipet_empty">Nội dung hộp thoại trống</string>
+
+    <!-- Context menu -->
+    <string name="context_item_delete">Xóa</string>
+    <string name="context_item_block">Chặn người này</string>
+    <string name="context_item_unspam">Bỏ đánh dấu tin rác</string>
+    <string name="context_item_forward">chuyển tiếp</string>
+    <string name="context_item_resend">Gửi lại</string>
+    <string name="context_menu_title">Tùy Chọn</string>
+
+    <!-- Preferences settings -->
+    <string name="setting_pre_delete_message">message_block_delete</string>
+    <string name="setting_pre_show_all_message">message_block_show_all</string>
+    <string name="setting_pre_enable_phone_filter">message_block_phone_enable</string>
+    <string name="setting_pre_enable_content_filter">message_block_content_enable</string>
+    <string name="setting_pre_show_content_filters">message_block_content_filters</string>
+    <string name="setting_pre_show_phone_filters">message_block_phone_filters</string>
+    <string name="title_activity_add_filter">AddFilterActivity</string>
+    <string name="setting_pre_phone_regex">===SYSTEM_PHONE_REGEX===</string>
+    <string name="setting_pre_email_regex">===SYSTEM_EMAIL_REGEX===</string>
+
+    <!-- Advert -->
+    <string name="ad_unit_id">ca-app-pub-4706560043728518/2896591982</string>
+    <string name="title_activity_scan_completed">ScanCompletedActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_create_schedule_message">Thêm tin nhắn</string>
+
+</resources>

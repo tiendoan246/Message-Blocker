@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:cacheColorHint="#ff000000"
+    android:orientation="horizontal"
+    android:paddingBottom="3dp"
+    android:paddingTop="8dp" >
+
+    <!-- Thumbnail Image -->
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="3dp" >
+
+        <ImageView
+            android:id="@+id/ivThumbnail"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true" />
+
+        <ImageView
+            android:id="@+id/check_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/check_sm"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <!-- Movie Title -->
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/framelayout"
+        android:layout_toRightOf="@+id/framelayout"
+        android:textSize="@dimen/title"
+        android:textStyle="bold" />
+
+    <!-- Genre -->
+
+    <TextView
+        android:id="@+id/tvBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPhone"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/framelayout"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textSize="@dimen/genre" />
+
+    <!-- Release Year -->
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/year" />
+
+</RelativeLayout>

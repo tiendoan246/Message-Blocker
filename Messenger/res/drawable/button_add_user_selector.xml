@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- When selected, use this image -->
+    <item android:drawable="@drawable/add_user_pressed_32" android:state_pressed="true"/>
+    <!-- When not selected, use this image -->
+    <item android:drawable="@drawable/add_user_normal_32" android:state_pressed="false"/>
+
+</selector>
